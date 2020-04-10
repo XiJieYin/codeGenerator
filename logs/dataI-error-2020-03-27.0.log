@@ -1,0 +1,4 @@
+2020-03-27 08:36:53.100 [restartedMain] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - oracle.jdbc.driver.OracleDriver is deprecated.
+2020-03-27 08:36:53.183 [restartedMain] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - oracle.jdbc.driver.OracleDriver is deprecated.
+2020-03-27 09:05:27.670 [restartedMain] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - oracle.jdbc.driver.OracleDriver is deprecated.
+2020-03-27 09:05:27.766 [restartedMain] ERROR com.alibaba.druid.pool.DruidAbstractDataSource - oracle.jdbc.driver.OracleDriver is deprecated.

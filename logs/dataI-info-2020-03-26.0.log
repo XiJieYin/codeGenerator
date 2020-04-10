@@ -1,0 +1,713 @@
+2020-03-26 19:48:04.434 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 10916 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-03-26 19:48:04.444 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - The following profiles are active: db,beetl
+2020-03-26 19:48:04.556 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-26 19:48:04.557 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-26 19:48:08.868 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-03-26 19:48:08.882 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-03-26 19:48:08.883 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-26 19:48:08.883 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 19:48:09.041 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-03-26 19:48:09.041 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4484 ms
+2020-03-26 19:48:09.201 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-03-26 19:48:09.205 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-03-26 19:48:10.888 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-26 19:48:12.774 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-26 19:48:13.120 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 19:48:13.199 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-26 19:48:14.024 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-26 19:48:14.069 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-26 19:48:14.144 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-26 19:48:14.432 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2020-03-26 19:48:14.450 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-03-26 19:48:14.456 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2020-03-26 19:48:14.493 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingGET_1
+2020-03-26 19:48:14.495 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingPOST_1
+2020-03-26 19:48:14.531 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-03-26 19:48:14.583 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path '/datai'
+2020-03-26 19:48:14.588 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Started HzdosDataInterfaceApplication in 12.396 seconds (JVM running for 15.843)
+2020-03-26 19:48:17.673 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 19:48:17.845 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-26 19:50:23.781 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 4688 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-03-26 19:50:23.787 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - The following profiles are active: db,beetl
+2020-03-26 19:50:23.846 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-26 19:50:23.846 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-26 19:50:26.464 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-03-26 19:50:26.477 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-03-26 19:50:26.478 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-26 19:50:26.478 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 19:50:26.595 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-03-26 19:50:26.595 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2749 ms
+2020-03-26 19:50:26.695 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-03-26 19:50:26.703 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-03-26 19:50:27.806 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-26 19:50:30.065 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-26 19:50:30.459 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 19:50:30.519 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-26 19:50:31.670 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-26 19:50:31.706 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-26 19:50:31.803 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-26 19:50:32.112 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2020-03-26 19:50:32.134 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-03-26 19:50:32.140 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2020-03-26 19:50:32.181 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingGET_1
+2020-03-26 19:50:32.184 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingPOST_1
+2020-03-26 19:50:32.219 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-03-26 19:50:32.269 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path '/datai'
+2020-03-26 19:50:32.276 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Started HzdosDataInterfaceApplication in 9.344 seconds (JVM running for 11.229)
+2020-03-26 19:51:21.987 [http-nio-8085-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 19:51:21.987 [http-nio-8085-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-26 19:51:22.003 [http-nio-8085-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2020-03-26 19:51:22.233 [http-nio-8085-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://localhost:8085/datai/login
+2020-03-26 19:51:22.233 [http-nio-8085-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : POST
+2020-03-26 19:51:22.236 [http-nio-8085-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.api.controller.LoginController.login
+2020-03-26 19:51:22.309 [http-nio-8085-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [null, {"pass":"123456","name":"admin"}]
+2020-03-26 19:51:22.679 [http-nio-8085-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 447
+2020-03-26 19:51:42.834 [http-nio-8085-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://localhost:8085/datai/uploadFile
+2020-03-26 19:51:42.834 [http-nio-8085-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : POST
+2020-03-26 19:51:42.834 [http-nio-8085-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.api.controller.UploadController.uploadFile
+2020-03-26 19:51:42.834 [http-nio-8085-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [2624, asdfsdf, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@3f44e01d]
+2020-03-26 19:52:21.719 [http-nio-8085-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 38885
+2020-03-26 19:52:43.561 [Thread-19] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 19:52:43.691 [Thread-19] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-26 19:52:44.879 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 4688 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-03-26 19:52:44.880 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - The following profiles are active: db,beetl
+2020-03-26 19:52:45.764 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-03-26 19:52:45.764 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-03-26 19:52:45.765 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-26 19:52:45.765 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 19:52:45.793 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-03-26 19:52:45.794 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 907 ms
+2020-03-26 19:52:45.855 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-03-26 19:52:45.855 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-03-26 19:52:46.447 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2020-03-26 19:52:47.999 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-26 19:52:48.310 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 19:52:48.342 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-26 19:52:50.221 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-26 19:52:50.221 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-26 19:52:50.230 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-26 19:52:50.256 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2020-03-26 19:52:50.268 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-03-26 19:52:50.271 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2020-03-26 19:52:50.292 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingGET_1
+2020-03-26 19:52:50.293 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingPOST_1
+2020-03-26 19:52:50.304 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-03-26 19:52:50.307 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path '/datai'
+2020-03-26 19:52:50.308 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Started HzdosDataInterfaceApplication in 5.594 seconds (JVM running for 149.259)
+2020-03-26 19:52:50.310 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-26 19:53:27.435 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 19:53:27.574 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2020-03-26 19:54:05.671 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 5760 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-03-26 19:54:05.678 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - The following profiles are active: db,beetl
+2020-03-26 19:54:05.776 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-26 19:54:05.776 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-26 19:54:07.971 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-03-26 19:54:07.987 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-03-26 19:54:07.988 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-26 19:54:07.988 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 19:54:08.101 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-03-26 19:54:08.102 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2325 ms
+2020-03-26 19:54:08.201 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-03-26 19:54:08.206 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-03-26 19:54:09.270 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-26 19:54:10.824 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-26 19:54:11.083 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 19:54:11.135 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-26 19:54:11.780 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-26 19:54:11.798 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-26 19:54:11.861 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-26 19:54:12.050 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2020-03-26 19:54:12.068 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-03-26 19:54:12.074 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2020-03-26 19:54:12.114 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingGET_1
+2020-03-26 19:54:12.115 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingPOST_1
+2020-03-26 19:54:12.147 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-03-26 19:54:12.175 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path '/datai'
+2020-03-26 19:54:12.181 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Started HzdosDataInterfaceApplication in 7.736 seconds (JVM running for 9.639)
+2020-03-26 19:54:22.691 [http-nio-8085-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 19:54:22.691 [http-nio-8085-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-26 19:54:22.714 [http-nio-8085-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 23 ms
+2020-03-26 19:54:22.809 [http-nio-8085-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://localhost:8085/datai/login
+2020-03-26 19:54:22.809 [http-nio-8085-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : POST
+2020-03-26 19:54:22.811 [http-nio-8085-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.api.controller.LoginController.login
+2020-03-26 19:54:22.850 [http-nio-8085-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [null, {"pass":"123456","name":"admin"}]
+2020-03-26 19:54:23.080 [http-nio-8085-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 272
+2020-03-26 19:54:41.313 [http-nio-8085-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://localhost:8085/datai/uploadFile
+2020-03-26 19:54:41.314 [http-nio-8085-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : POST
+2020-03-26 19:54:41.314 [http-nio-8085-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.api.controller.UploadController.uploadFile
+2020-03-26 19:54:41.314 [http-nio-8085-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [2624, asdfsdf, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@59a3f606]
+2020-03-26 19:55:02.302 [http-nio-8085-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 20989
+2020-03-26 19:57:06.554 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 19:57:06.805 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-26 19:57:52.595 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 17744 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-03-26 19:57:52.600 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - The following profiles are active: db,beetl
+2020-03-26 19:57:52.694 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-26 19:57:52.695 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-26 19:57:56.429 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-03-26 19:57:56.450 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-03-26 19:57:56.451 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-26 19:57:56.452 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 19:57:56.609 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-03-26 19:57:56.609 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3914 ms
+2020-03-26 19:57:56.752 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-03-26 19:57:56.757 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-03-26 19:57:57.859 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-26 19:57:59.397 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-26 19:57:59.684 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 19:57:59.742 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-26 19:58:00.376 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-26 19:58:00.393 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-26 19:58:00.441 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-26 19:58:00.642 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2020-03-26 19:58:00.660 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-03-26 19:58:00.665 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2020-03-26 19:58:00.727 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingGET_1
+2020-03-26 19:58:00.729 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingPOST_1
+2020-03-26 19:58:00.758 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-03-26 19:58:00.790 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path '/datai'
+2020-03-26 19:58:00.795 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Started HzdosDataInterfaceApplication in 9.602 seconds (JVM running for 11.733)
+2020-03-26 19:58:51.150 [Thread-13] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 19:58:51.285 [Thread-13] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-26 19:58:52.262 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 17744 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-03-26 19:58:52.263 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - The following profiles are active: db,beetl
+2020-03-26 19:58:53.473 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-03-26 19:58:53.474 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-03-26 19:58:53.475 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-26 19:58:53.475 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 19:58:53.502 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-03-26 19:58:53.502 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1230 ms
+2020-03-26 19:58:53.559 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-03-26 19:58:53.564 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-03-26 19:58:54.201 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2020-03-26 19:58:55.191 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-26 19:58:55.385 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 19:58:55.411 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-26 19:58:55.816 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-26 19:58:55.817 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-26 19:58:55.825 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-26 19:58:55.850 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2020-03-26 19:58:55.864 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-03-26 19:58:55.868 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2020-03-26 19:58:55.891 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingGET_1
+2020-03-26 19:58:55.892 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingPOST_1
+2020-03-26 19:58:55.904 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-03-26 19:58:55.907 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path '/datai'
+2020-03-26 19:58:55.909 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Started HzdosDataInterfaceApplication in 3.739 seconds (JVM running for 66.845)
+2020-03-26 19:58:55.911 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-26 20:01:21.030 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 20:01:21.290 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2020-03-26 20:07:38.758 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 3172 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-03-26 20:07:38.761 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - The following profiles are active: db,beetl
+2020-03-26 20:07:38.807 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-26 20:07:38.807 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-26 20:07:40.974 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-03-26 20:07:40.986 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-03-26 20:07:40.987 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-26 20:07:40.988 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 20:07:41.114 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-03-26 20:07:41.114 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2306 ms
+2020-03-26 20:07:41.210 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-03-26 20:07:41.214 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-03-26 20:07:42.328 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-26 20:07:43.823 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-26 20:07:44.105 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 20:07:44.162 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-26 20:07:44.799 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-26 20:07:44.819 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-26 20:07:44.864 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-26 20:07:45.060 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2020-03-26 20:07:45.078 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-03-26 20:07:45.084 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2020-03-26 20:07:45.123 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingGET_1
+2020-03-26 20:07:45.125 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingPOST_1
+2020-03-26 20:07:45.156 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-03-26 20:07:45.189 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path '/datai'
+2020-03-26 20:07:45.193 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Started HzdosDataInterfaceApplication in 7.477 seconds (JVM running for 9.443)
+2020-03-26 20:07:51.471 [http-nio-8085-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 20:07:51.471 [http-nio-8085-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-26 20:07:51.492 [http-nio-8085-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 21 ms
+2020-03-26 20:07:51.620 [http-nio-8085-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://localhost:8085/datai/login
+2020-03-26 20:07:51.620 [http-nio-8085-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : POST
+2020-03-26 20:07:51.622 [http-nio-8085-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.api.controller.LoginController.login
+2020-03-26 20:07:51.689 [http-nio-8085-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [null, {"pass":"123456","name":"admin"}]
+2020-03-26 20:07:51.992 [http-nio-8085-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 373
+2020-03-26 20:07:58.265 [http-nio-8085-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://localhost:8085/datai/uploadFile
+2020-03-26 20:07:58.265 [http-nio-8085-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : POST
+2020-03-26 20:07:58.265 [http-nio-8085-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.api.controller.UploadController.uploadFile
+2020-03-26 20:07:58.265 [http-nio-8085-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [2624, asdfsdf, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@61bc0ba5]
+2020-03-26 20:07:58.333 [http-nio-8085-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 68
+2020-03-26 20:09:12.128 [Thread-15] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 20:09:12.299 [Thread-15] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-26 20:09:13.264 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 3172 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-03-26 20:09:13.264 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - The following profiles are active: db,beetl
+2020-03-26 20:09:14.004 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-03-26 20:09:14.005 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-03-26 20:09:14.005 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-26 20:09:14.005 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 20:09:14.032 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-03-26 20:09:14.034 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 765 ms
+2020-03-26 20:09:14.091 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-03-26 20:09:14.091 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-03-26 20:09:14.926 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2020-03-26 20:09:15.948 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-26 20:09:16.154 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 20:09:16.179 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-26 20:09:16.579 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-26 20:09:16.579 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-26 20:09:16.588 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-26 20:09:16.614 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2020-03-26 20:09:16.625 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-03-26 20:09:16.630 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2020-03-26 20:09:16.651 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingGET_1
+2020-03-26 20:09:16.652 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingPOST_1
+2020-03-26 20:09:16.663 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-03-26 20:09:16.666 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path '/datai'
+2020-03-26 20:09:16.667 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Started HzdosDataInterfaceApplication in 3.508 seconds (JVM running for 100.916)
+2020-03-26 20:09:16.668 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-26 20:09:33.904 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 20:09:34.113 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2020-03-26 20:30:08.978 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 20644 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-03-26 20:30:08.984 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - The following profiles are active: db,beetl
+2020-03-26 20:30:09.045 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-26 20:30:09.046 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-26 20:30:10.755 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-03-26 20:30:10.944 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 180ms. Found 1 Elasticsearch repository interfaces.
+2020-03-26 20:30:10.951 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-03-26 20:30:10.976 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-03-26 20:30:12.248 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-03-26 20:30:12.258 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-03-26 20:30:12.259 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-26 20:30:12.259 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 20:30:12.391 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-03-26 20:30:12.391 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3344 ms
+2020-03-26 20:30:12.487 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-03-26 20:30:12.492 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-03-26 20:30:13.546 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-26 20:30:16.751 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-26 20:30:19.228 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-26 20:30:19.231 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-26 20:30:19.245 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-26 20:37:15.672 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 11784 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-03-26 20:37:15.678 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - The following profiles are active: db,beetl
+2020-03-26 20:37:15.744 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-26 20:37:15.745 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-26 20:37:16.944 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-03-26 20:37:17.085 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 134ms. Found 1 Elasticsearch repository interfaces.
+2020-03-26 20:37:17.094 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-03-26 20:37:17.121 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-03-26 20:37:18.550 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-03-26 20:37:18.563 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-03-26 20:37:18.564 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-26 20:37:18.566 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 20:37:18.713 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-03-26 20:37:18.714 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2969 ms
+2020-03-26 20:37:18.844 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-03-26 20:37:18.849 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-03-26 20:37:19.959 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-26 20:37:22.363 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2020-03-26 20:37:22.364 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-03-26 20:37:22.365 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-03-26 20:37:22.365 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-03-26 20:37:22.365 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-03-26 20:37:22.365 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-03-26 20:37:27.045 [restartedMain] INFO  o.s.d.e.client.TransportClientFactoryBean - Adding transport node : 192.168.18.66:9300
+2020-03-26 20:37:50.240 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-26 20:37:51.399 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-26 20:37:51.804 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 20:37:53.566 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-26 20:37:53.589 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-26 20:37:53.634 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-26 20:37:53.843 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2020-03-26 20:37:53.863 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-03-26 20:37:53.869 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2020-03-26 20:37:53.910 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingGET_1
+2020-03-26 20:37:53.914 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingPOST_1
+2020-03-26 20:37:53.953 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-03-26 20:37:53.973 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path '/datai'
+2020-03-26 20:37:53.977 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Started HzdosDataInterfaceApplication in 39.706 seconds (JVM running for 41.95)
+2020-03-26 20:37:58.658 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 20:38:14.902 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 11184 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-03-26 20:38:14.907 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - The following profiles are active: db,beetl
+2020-03-26 20:38:14.989 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-26 20:38:14.989 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-26 20:38:16.142 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-03-26 20:38:16.276 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 128ms. Found 1 Elasticsearch repository interfaces.
+2020-03-26 20:38:16.283 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-03-26 20:38:16.329 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-03-26 20:38:17.933 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-03-26 20:38:17.945 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-03-26 20:38:17.945 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-26 20:38:17.946 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 20:38:18.082 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-03-26 20:38:18.082 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3092 ms
+2020-03-26 20:38:18.179 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-03-26 20:38:18.186 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-03-26 20:38:19.249 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-26 20:38:20.797 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2020-03-26 20:38:20.798 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-03-26 20:38:20.799 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-03-26 20:38:20.799 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-03-26 20:38:20.799 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-03-26 20:38:20.799 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-03-26 20:38:23.365 [restartedMain] INFO  o.s.d.e.client.TransportClientFactoryBean - Adding transport node : 192.168.18.241:9300
+2020-03-26 20:38:25.578 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-26 20:38:26.899 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-26 20:38:27.206 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 20:38:28.815 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-26 20:38:28.836 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-26 20:38:28.881 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-26 20:38:29.077 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2020-03-26 20:38:29.095 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-03-26 20:38:29.101 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2020-03-26 20:38:29.138 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingGET_1
+2020-03-26 20:38:29.140 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingPOST_1
+2020-03-26 20:38:29.173 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-03-26 20:38:29.267 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path '/datai'
+2020-03-26 20:38:29.271 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Started HzdosDataInterfaceApplication in 15.653 seconds (JVM running for 17.662)
+2020-03-26 20:38:36.695 [http-nio-8085-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 20:38:36.695 [http-nio-8085-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-26 20:38:36.725 [http-nio-8085-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 29 ms
+2020-03-26 20:38:36.890 [http-nio-8085-exec-1] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://localhost:8085/datai/login
+2020-03-26 20:38:36.890 [http-nio-8085-exec-1] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : POST
+2020-03-26 20:38:36.893 [http-nio-8085-exec-1] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.api.controller.LoginController.login
+2020-03-26 20:38:37.014 [http-nio-8085-exec-1] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [null, {"pass":"123456","name":"admin"}]
+2020-03-26 20:38:37.397 [http-nio-8085-exec-1] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 511
+2020-03-26 20:38:43.408 [http-nio-8085-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://localhost:8085/datai/uploadFile
+2020-03-26 20:38:43.408 [http-nio-8085-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : POST
+2020-03-26 20:38:43.408 [http-nio-8085-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.api.controller.UploadController.uploadFile
+2020-03-26 20:38:43.408 [http-nio-8085-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [2624, asdfsdf, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@293dc3a4]
+2020-03-26 20:38:43.704 [http-nio-8085-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 296
+2020-03-26 20:39:25.006 [http-nio-8085-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://localhost:8085/datai/uploadFile
+2020-03-26 20:39:25.006 [http-nio-8085-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : POST
+2020-03-26 20:39:25.006 [http-nio-8085-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.api.controller.UploadController.uploadFile
+2020-03-26 20:39:25.006 [http-nio-8085-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [2624, asdfsdf, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@7df7cd94]
+2020-03-26 20:39:25.348 [http-nio-8085-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 342
+2020-03-26 20:40:51.899 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 20:40:52.064 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-26 20:44:11.131 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 9128 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-03-26 20:44:11.137 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - The following profiles are active: db,beetl
+2020-03-26 20:44:11.195 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-26 20:44:11.196 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-26 20:44:12.315 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-03-26 20:44:12.429 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 109ms. Found 1 Elasticsearch repository interfaces.
+2020-03-26 20:44:12.436 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-03-26 20:44:12.460 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-03-26 20:44:13.647 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-03-26 20:44:13.658 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-03-26 20:44:13.659 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-26 20:44:13.660 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 20:44:13.794 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-03-26 20:44:13.795 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2599 ms
+2020-03-26 20:44:13.887 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-03-26 20:44:13.893 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-03-26 20:44:14.960 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-26 20:44:16.652 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2020-03-26 20:44:16.660 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-03-26 20:44:16.660 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-03-26 20:44:16.660 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-03-26 20:44:16.660 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-03-26 20:44:16.660 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-03-26 20:44:20.545 [restartedMain] INFO  o.s.d.e.client.TransportClientFactoryBean - Adding transport node : 192.168.18.241:9300
+2020-03-26 20:44:22.620 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-26 20:44:22.914 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-26 20:44:22.916 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-26 20:44:22.930 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-26 20:48:20.537 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 16064 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-03-26 20:48:20.541 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - The following profiles are active: db,beetl
+2020-03-26 20:48:20.595 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-26 20:48:20.596 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-26 20:48:21.658 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-03-26 20:48:21.780 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 105ms. Found 1 Elasticsearch repository interfaces.
+2020-03-26 20:48:21.788 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-03-26 20:48:21.809 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-03-26 20:48:22.964 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-03-26 20:48:22.975 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-03-26 20:48:22.977 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-26 20:48:22.977 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 20:48:23.113 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-03-26 20:48:23.113 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2517 ms
+2020-03-26 20:48:23.209 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-03-26 20:48:23.214 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-03-26 20:48:24.271 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-26 20:48:25.758 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2020-03-26 20:48:25.759 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-03-26 20:48:25.759 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-03-26 20:48:25.760 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-03-26 20:48:25.760 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-03-26 20:48:25.760 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-03-26 20:48:28.192 [restartedMain] INFO  o.s.d.e.client.TransportClientFactoryBean - Adding transport node : 192.168.18.241:9300
+2020-03-26 20:48:30.090 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-26 20:48:30.413 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-26 20:48:30.416 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-26 20:48:30.430 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-26 20:50:28.827 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 12076 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-03-26 20:50:28.830 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - The following profiles are active: db,beetl
+2020-03-26 20:50:28.886 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-26 20:50:28.886 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-26 20:50:30.078 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-03-26 20:50:30.329 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 242ms. Found 1 Elasticsearch repository interfaces.
+2020-03-26 20:50:30.337 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-03-26 20:50:30.379 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-03-26 20:50:31.726 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-03-26 20:50:31.742 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-03-26 20:50:31.743 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-26 20:50:31.743 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 20:50:31.876 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-03-26 20:50:31.876 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2990 ms
+2020-03-26 20:50:31.972 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-03-26 20:50:31.978 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-03-26 20:50:33.256 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-26 20:50:35.349 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2020-03-26 20:50:35.351 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-03-26 20:50:35.353 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-03-26 20:50:35.354 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-03-26 20:50:35.354 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-03-26 20:50:35.354 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-03-26 20:50:38.352 [restartedMain] INFO  o.s.d.e.client.TransportClientFactoryBean - Adding transport node : 192.168.18.241:9300
+2020-03-26 20:50:40.875 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-26 20:50:41.217 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-26 20:50:41.219 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-26 20:50:41.235 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-26 20:51:08.657 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 7460 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-03-26 20:51:08.661 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - The following profiles are active: db,beetl
+2020-03-26 20:51:08.745 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-26 20:51:08.745 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-26 20:51:10.105 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-03-26 20:51:10.348 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 234ms. Found 1 Elasticsearch repository interfaces.
+2020-03-26 20:51:10.356 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-03-26 20:51:10.398 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-03-26 20:51:11.679 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-03-26 20:51:11.690 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-03-26 20:51:11.691 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-26 20:51:11.691 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 20:51:11.819 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-03-26 20:51:11.820 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3075 ms
+2020-03-26 20:51:11.908 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-03-26 20:51:11.912 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-03-26 20:51:12.942 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-26 20:51:15.143 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2020-03-26 20:51:15.145 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-03-26 20:51:15.145 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-03-26 20:51:15.145 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-03-26 20:51:15.145 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-03-26 20:51:15.145 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-03-26 20:51:17.621 [restartedMain] INFO  o.s.d.e.client.TransportClientFactoryBean - Adding transport node : 192.168.18.241:9300
+2020-03-26 20:51:19.547 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-26 20:51:20.029 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-26 20:51:20.032 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-26 20:51:20.046 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-26 20:53:30.946 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 20800 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-03-26 20:53:30.952 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - The following profiles are active: db,beetl
+2020-03-26 20:53:31.003 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-26 20:53:31.004 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-26 20:53:32.499 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-03-26 20:53:32.618 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 112ms. Found 1 Elasticsearch repository interfaces.
+2020-03-26 20:53:32.625 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-03-26 20:53:32.649 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-03-26 20:53:33.841 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-03-26 20:53:33.853 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-03-26 20:53:33.854 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-26 20:53:33.854 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 20:53:33.988 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-03-26 20:53:33.988 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2984 ms
+2020-03-26 20:53:34.080 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-03-26 20:53:34.085 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-03-26 20:53:35.192 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-26 20:53:36.710 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2020-03-26 20:53:36.711 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-03-26 20:53:36.711 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-03-26 20:53:36.711 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-03-26 20:53:36.711 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-03-26 20:53:36.711 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-03-26 20:53:39.067 [restartedMain] INFO  o.s.d.e.client.TransportClientFactoryBean - Adding transport node : 192.168.18.241:9300
+2020-03-26 20:53:41.177 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-26 20:53:41.501 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-26 20:53:41.504 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-26 20:53:41.517 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-26 20:57:08.464 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 20500 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-03-26 20:57:08.469 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - The following profiles are active: db,beetl
+2020-03-26 20:57:08.531 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-26 20:57:08.531 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-26 20:57:09.913 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-03-26 20:57:10.044 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 124ms. Found 1 Elasticsearch repository interfaces.
+2020-03-26 20:57:10.052 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-03-26 20:57:10.081 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-03-26 20:57:11.826 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-03-26 20:57:11.836 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-03-26 20:57:11.837 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-26 20:57:11.837 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 20:57:11.961 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-03-26 20:57:11.962 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3431 ms
+2020-03-26 20:57:12.057 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-03-26 20:57:12.062 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-03-26 20:57:13.137 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-26 20:57:14.654 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2020-03-26 20:57:14.656 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-03-26 20:57:14.656 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-03-26 20:57:14.656 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-03-26 20:57:14.656 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-03-26 20:57:14.656 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-03-26 20:57:17.141 [restartedMain] INFO  o.s.d.e.client.TransportClientFactoryBean - Adding transport node : 192.168.18.241:9300
+2020-03-26 20:57:19.057 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-26 20:57:20.278 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-26 20:57:20.572 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 20:57:22.194 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-26 20:57:22.214 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-26 20:57:22.257 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-26 20:57:22.450 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2020-03-26 20:57:22.468 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-03-26 20:57:22.476 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2020-03-26 20:57:22.514 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingGET_1
+2020-03-26 20:57:22.515 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingPOST_1
+2020-03-26 20:57:22.547 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-03-26 20:57:22.568 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path '/datai'
+2020-03-26 20:57:22.572 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Started HzdosDataInterfaceApplication in 15.241 seconds (JVM running for 17.806)
+2020-03-26 20:57:49.306 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 20:57:49.400 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-26 20:57:59.653 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 4488 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-03-26 20:57:59.660 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - The following profiles are active: db,beetl
+2020-03-26 20:57:59.719 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-26 20:57:59.720 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-26 20:58:00.807 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-03-26 20:58:00.916 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 102ms. Found 1 Elasticsearch repository interfaces.
+2020-03-26 20:58:00.922 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-03-26 20:58:00.945 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-03-26 20:58:02.290 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-03-26 20:58:02.303 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-03-26 20:58:02.304 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-26 20:58:02.307 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 20:58:02.479 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-03-26 20:58:02.479 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2759 ms
+2020-03-26 20:58:02.589 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-03-26 20:58:02.597 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-03-26 20:58:03.792 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-26 20:58:06.068 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2020-03-26 20:58:06.070 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-03-26 20:58:06.071 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-03-26 20:58:06.071 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-03-26 20:58:06.071 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-03-26 20:58:06.071 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-03-26 20:58:08.625 [restartedMain] INFO  o.s.d.e.client.TransportClientFactoryBean - Adding transport node : 192.168.18.241:9300
+2020-03-26 20:58:10.574 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-26 20:58:11.639 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-26 20:58:11.946 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 20:58:13.543 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-26 20:58:13.562 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-26 20:58:13.613 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-26 20:58:13.802 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2020-03-26 20:58:13.822 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-03-26 20:58:13.828 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2020-03-26 20:58:13.865 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingGET_1
+2020-03-26 20:58:13.867 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingPOST_1
+2020-03-26 20:58:13.899 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-03-26 20:58:13.917 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path '/datai'
+2020-03-26 20:58:13.920 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Started HzdosDataInterfaceApplication in 15.529 seconds (JVM running for 17.589)
+2020-03-26 20:58:20.228 [http-nio-8085-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 20:58:20.229 [http-nio-8085-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-26 20:58:20.253 [http-nio-8085-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 24 ms
+2020-03-26 20:58:20.447 [http-nio-8085-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://localhost:8085/datai/login
+2020-03-26 20:58:20.447 [http-nio-8085-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : POST
+2020-03-26 20:58:20.459 [http-nio-8085-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.api.controller.LoginController.login
+2020-03-26 20:58:20.544 [http-nio-8085-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [null, {"pass":"123456","name":"admin"}]
+2020-03-26 20:58:20.889 [http-nio-8085-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 443
+2020-03-26 20:58:27.657 [http-nio-8085-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://localhost:8085/datai/uploadFile
+2020-03-26 20:58:27.658 [http-nio-8085-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : POST
+2020-03-26 20:58:27.658 [http-nio-8085-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.api.controller.UploadController.uploadFile
+2020-03-26 20:58:27.658 [http-nio-8085-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [2624, asdfsdf, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@645baea]
+2020-03-26 20:58:27.852 [http-nio-8085-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 195
+2020-03-26 20:59:12.709 [http-nio-8085-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://localhost:8085/datai/uploadFile
+2020-03-26 20:59:12.709 [http-nio-8085-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : POST
+2020-03-26 20:59:12.710 [http-nio-8085-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.api.controller.UploadController.uploadFile
+2020-03-26 20:59:12.710 [http-nio-8085-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [2624, asdfsdf, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@6f070421]
+2020-03-26 20:59:12.810 [http-nio-8085-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 101
+2020-03-26 20:59:31.063 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 21:17:03.006 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 20280 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-03-26 21:17:03.011 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - The following profiles are active: db,beetl
+2020-03-26 21:17:03.067 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-26 21:17:03.067 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-26 21:17:04.396 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-03-26 21:17:04.579 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 174ms. Found 1 Elasticsearch repository interfaces.
+2020-03-26 21:17:04.587 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-03-26 21:17:04.629 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-03-26 21:17:06.065 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-03-26 21:17:06.076 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-03-26 21:17:06.077 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-26 21:17:06.077 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 21:17:06.204 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-03-26 21:17:06.205 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3138 ms
+2020-03-26 21:17:06.293 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-03-26 21:17:06.298 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-03-26 21:17:07.221 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2020-03-26 21:17:07.221 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-03-26 21:17:07.221 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-03-26 21:17:07.221 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-03-26 21:17:07.222 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-03-26 21:17:07.222 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-03-26 21:17:09.541 [restartedMain] INFO  o.s.d.e.client.TransportClientFactoryBean - Adding transport node : 192.168.18.241:9300
+2020-03-26 21:17:11.415 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-26 21:17:12.688 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-26 21:17:14.268 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-26 21:17:14.561 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 21:17:16.198 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-26 21:17:16.219 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-26 21:17:16.271 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-26 21:17:16.485 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2020-03-26 21:17:16.504 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-03-26 21:17:16.512 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2020-03-26 21:17:16.552 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingGET_1
+2020-03-26 21:17:16.554 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingPOST_1
+2020-03-26 21:17:16.597 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-03-26 21:17:16.623 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path '/datai'
+2020-03-26 21:17:16.632 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Started HzdosDataInterfaceApplication in 14.487 seconds (JVM running for 16.353)
+2020-03-26 21:17:52.707 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-26 21:18:34.662 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 16128 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-03-26 21:18:34.666 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - The following profiles are active: db,beetl
+2020-03-26 21:18:34.713 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-26 21:18:34.713 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-26 21:18:35.807 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-03-26 21:18:35.936 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 123ms. Found 1 Elasticsearch repository interfaces.
+2020-03-26 21:18:35.943 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-03-26 21:18:35.966 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-03-26 21:18:37.175 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-03-26 21:18:37.186 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-03-26 21:18:37.187 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-26 21:18:37.188 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 21:18:37.320 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-03-26 21:18:37.321 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2608 ms
+2020-03-26 21:18:37.417 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-03-26 21:18:37.423 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-03-26 21:18:38.327 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2020-03-26 21:18:38.328 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-03-26 21:18:38.329 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-03-26 21:18:38.329 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-03-26 21:18:38.329 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-03-26 21:18:38.329 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-03-26 21:18:40.681 [restartedMain] INFO  o.s.d.e.client.TransportClientFactoryBean - Adding transport node : 192.168.18.241:9300
+2020-03-26 21:18:42.629 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-26 21:18:45.198 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-26 21:18:47.375 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-26 21:18:47.834 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-26 21:18:49.527 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-26 21:18:49.549 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-26 21:18:49.596 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-26 21:18:49.781 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2020-03-26 21:18:49.799 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-03-26 21:18:49.807 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2020-03-26 21:18:49.847 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingGET_1
+2020-03-26 21:18:49.849 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingPOST_1
+2020-03-26 21:18:49.880 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-03-26 21:18:49.900 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path '/datai'
+2020-03-26 21:18:49.903 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Started HzdosDataInterfaceApplication in 16.289 seconds (JVM running for 18.472)
+2020-03-26 21:27:14.116 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

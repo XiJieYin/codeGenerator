@@ -1,0 +1,60 @@
+2020-03-28 15:09:09.291 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 15:18:34.049 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 15:19:04.965 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 15:24:18.798 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 15:32:32.323 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 15:42:55.891 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 15:59:26.667 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 16:01:19.865 [elasticsearch[_client_][transport_worker][T#5]] WARN  org.elasticsearch.transport.OutboundHandler - send message failed [channel: Netty4TcpChannel{localAddress=0.0.0.0/0.0.0.0:57095, remoteAddress=/192.168.18.241:9300}]
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.newClosedChannelException(AbstractChannel.java:957)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(AbstractChannel.java:865)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.write(DefaultChannelPipeline.java:1367)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:715)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:707)
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:790)
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:700)
+	at io.netty.handler.logging.LoggingHandler.write(LoggingHandler.java:235)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:715)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:762)
+	at io.netty.channel.AbstractChannelHandlerContext$WriteTask.run(AbstractChannelHandlerContext.java:1089)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.lang.Thread.run(Thread.java:748)
+2020-03-28 16:06:59.042 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 16:14:26.901 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 16:17:19.425 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 16:17:48.033 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 16:19:05.180 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 16:21:17.956 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 16:23:03.284 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 16:35:52.494 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 16:50:46.975 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 16:54:28.238 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 16:56:29.047 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 17:00:05.292 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 17:26:41.720 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 17:52:24.463 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 18:04:33.783 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 18:07:05.811 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 18:09:05.724 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 18:09:26.838 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 18:10:44.775 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 18:17:52.270 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 18:30:48.169 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 18:34:51.964 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 18:37:41.807 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 18:42:32.609 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 18:44:31.130 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 18:44:39.182 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 18:44:47.404 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 18:56:48.166 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 18:59:26.644 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 19:10:36.798 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 19:12:18.484 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 19:17:24.321 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).
+2020-03-28 19:20:56.744 [restartedMain] WARN  o.s.b.a.web.format.WebConversionService - Auto-configuration of Joda-Time formatters is deprecated in favor of using java.time (JSR-310).

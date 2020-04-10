@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gx.dataI.hzdospro.mapper.InfoRwtjMapper">
+    <sql id="Base_Column_List">
+		ID, USER_ID, RW_ID, RWMC, JZSL, AJSL, CLSL, SMYS, LRYS,
+		SHYS, ORG_CODE,
+		ORG_NAME,
+		JHKSSJ, JHJSSJ, RYLX, ZT
+	</sql>
+    <select id="selectByUserIdAndRylxs" resultType="com.gx.dataI.hzdospro.model.InfoRwtj">
+        select
+        <include refid="Base_Column_List" />
+        from INFO_RWTJ
+        where USER_ID = #{userId} AND RYLX = #{rylx} AND RW_ID = #{rwId} and cjsj =
+        #{cjsj}
+    </select>
+</mapper>

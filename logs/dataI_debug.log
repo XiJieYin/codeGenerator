@@ -1,0 +1,39 @@
+2020-04-10 16:35:43.496 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-10 16:41:48.372 [http-nio-8080-exec-8] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"操作成功！","code":"200","token":"b0NTS2lUcVBOZTFRSXFlWGtVR1lCUUErZzdxUGE3OThMRE5vYk05Z3ZjMUxiT29TaWk0aTRYdEN4QUhLOWY4Tg"}
+2020-04-10 16:42:00.353 [http-nio-8080-exec-1] DEBUG c.gx.dataI.hzdospro.mapper.DosJzMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM dos_jz 
+2020-04-10 16:42:00.442 [http-nio-8080-exec-1] DEBUG c.gx.dataI.hzdospro.mapper.DosJzMapper.selectPage - ==> Parameters: 
+2020-04-10 16:42:00.464 [http-nio-8080-exec-1] DEBUG c.gx.dataI.hzdospro.mapper.DosJzMapper.selectPage - ==>  Preparing: SELECT * FROM ( SELECT TMP.*, ROWNUM ROW_ID FROM ( SELECT ID AS id,aj_id AS ajId,jzlx,org_code AS orgCode,org_name AS orgName,bcqx,jzjs,jzys,ljdw,qzh,lbh,ajh,qzsj,user_id AS userId,create_time AS createTime,update_time AS updateTime,jztm,satae,sxm,jzbh,txmbh,mlh,cfdd,kssj,jssj,xgrid,xgrmc,bz,dd_id AS ddId,ddmc,shzt,tmshzt,jzlx_code AS jzlxCode,smzt,lrzt,tmzt,ajbh,record_person AS recordPerson,nd,tmlxs,rwjzshzt,yczt,sjscys,guid,syncflag,fdfsupload,bz1,bz2 FROM dos_jz ) TMP WHERE ROWNUM <=10) WHERE ROW_ID > 0 
+2020-04-10 16:42:00.494 [http-nio-8080-exec-1] DEBUG c.gx.dataI.hzdospro.mapper.DosJzMapper.selectPage - ==> Parameters: 
+2020-04-10 16:42:00.517 [http-nio-8080-exec-1] DEBUG c.gx.dataI.hzdospro.mapper.DosJzMapper.selectPage - <==      Total: 2
+2020-04-10 16:42:00.520 [http-nio-8080-exec-1] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : Result(result=200, data= Page:{ [Pagination { total=2 ,size=10 ,pages=1 ,current=1 }], records-size:2 })
+2020-04-10 16:46:57.578 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-10 16:48:49.939 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-10 16:50:03.125 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-10 16:50:29.947 [http-nio-8080-exec-1] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"操作成功！","code":"200","token":"QS9DZytoTGlzV3FwclJGcEpyeGdxd3Fqb285UVhLTHhoM21Tb3hncllXTXUvb2NYV2ZyRCtYODJFZkdIZWk2MQ"}
+2020-04-10 17:25:17.954 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-10 17:26:00.782 [http-nio-18081-exec-1] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"操作成功！","code":"200","token":"SU81NWVaOGJ2MWFoMVFNNlEycWVOTnZrYkRTelhsQkRwTFB5VFd6NE1KRFpGTUlQNVVHRUdLYWUwdDd6ZUhIcw"}
+2020-04-10 17:28:55.144 [http-nio-18081-exec-6] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"操作成功！","code":"200","token":"ZHpCL0N1dDFrUXNaOW5VUjR3M2NlZ2FSUTFqZnV3Q013QmhDZ2VFMGVUWklaUk14aTArQ1orOE5vcVMrOHpNMA"}
+2020-04-10 17:28:56.994 [http-nio-18081-exec-5] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"操作成功！","code":"200","token":"ZHpCL0N1dDFrUXNaOW5VUjR3M2NlcGZkQVppNUFodkNNMVozVHBMYUx0WVVpYXNCUi96R2lsdVdWYmZIaFVNWg"}
+2020-04-10 17:28:58.837 [http-nio-18081-exec-7] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"操作成功！","code":"200","token":"ZHpCL0N1dDFrUXNaOW5VUjR3M2Nldm9PTEcwcWRTa2hxd0Nndi95Wkh6Qi9KM2phVmpBWUszY0d5Y1FBUUU1NA"}
+2020-04-10 17:29:00.777 [http-nio-18081-exec-4] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"操作成功！","code":"200","token":"ZHpCL0N1dDFrUXNaOW5VUjR3M2NldHdBcEJwRHd5L1BZSUlYbjhIZnBBMWhiODFMVTAyOGtKMDV0NHlVRXJaUA"}
+2020-04-10 17:30:01.465 [http-nio-18081-exec-8] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"操作成功！","code":"200","token":"eVlwRG0xVENxVDFpQXVxeWduanZJNHQxaXBnQUp0Tm16VUFERGJ0a3RabEswNjBKckc5T3ZneDZyY3gyYXRRdg"}
+2020-04-10 17:30:56.772 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-10 17:33:50.533 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-10 17:38:30.299 [http-nio-18081-exec-5] DEBUG c.gx.dataI.hzdospro.mapper.DosJzMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM dos_jz 
+2020-04-10 17:38:30.412 [http-nio-18081-exec-5] DEBUG c.gx.dataI.hzdospro.mapper.DosJzMapper.selectPage - ==> Parameters: 
+2020-04-10 17:38:30.453 [http-nio-18081-exec-5] DEBUG c.gx.dataI.hzdospro.mapper.DosJzMapper.selectPage - ==>  Preparing: SELECT * FROM ( SELECT TMP.*, ROWNUM ROW_ID FROM ( SELECT ID AS id,aj_id AS ajId,jzlx,org_code AS orgCode,org_name AS orgName,bcqx,jzjs,jzys,ljdw,qzh,lbh,ajh,qzsj,user_id AS userId,create_time AS createTime,update_time AS updateTime,jztm,satae,sxm,jzbh,txmbh,mlh,cfdd,kssj,jssj,xgrid,xgrmc,bz,dd_id AS ddId,ddmc,shzt,tmshzt,jzlx_code AS jzlxCode,smzt,lrzt,tmzt,ajbh,record_person AS recordPerson,nd,tmlxs,rwjzshzt,yczt,sjscys,guid,syncflag,fdfsupload,bz1,bz2 FROM dos_jz ) TMP WHERE ROWNUM <=10) WHERE ROW_ID > 0 
+2020-04-10 17:38:30.488 [http-nio-18081-exec-5] DEBUG c.gx.dataI.hzdospro.mapper.DosJzMapper.selectPage - ==> Parameters: 
+2020-04-10 17:38:30.507 [http-nio-18081-exec-5] DEBUG c.gx.dataI.hzdospro.mapper.DosJzMapper.selectPage - <==      Total: 2
+2020-04-10 17:38:30.511 [http-nio-18081-exec-5] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : Result(result=200, data= Page:{ [Pagination { total=2 ,size=10 ,pages=1 ,current=1 }], records-size:2 })
+2020-04-10 18:09:17.865 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-10 18:09:46.157 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-10 18:10:12.120 [http-nio-18082-exec-2] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"操作成功！","code":"200","token":"TWoxMmwzSGVSZUdsb3RmRUFPZlN3Ujk4c29vVDJkRHVubURRQzRCandYY093TGhZb21IcmtSZFNMNjR6VmdMNg"}
+2020-04-10 18:10:27.387 [http-nio-18082-exec-3] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.252
+2020-04-10 18:10:27.388 [http-nio-18082-exec-3] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-10 18:10:27.399 [http-nio-18082-exec-3] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : null
+2020-04-10 18:10:56.738 [http-nio-18082-exec-4] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.251
+2020-04-10 18:10:56.739 [http-nio-18082-exec-4] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-10 18:11:12.226 [http-nio-18082-exec-4] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : null
+2020-04-10 19:15:35.683 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-10 19:18:26.767 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-10 19:19:52.949 [http-nio-18082-exec-9] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : 1

@@ -1,0 +1,683 @@
+2020-04-10 16:35:43.483 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 15276 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-04-10 16:35:43.537 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - No active profile set, falling back to default profiles: default
+2020-04-10 16:35:43.661 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 16:35:43.661 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 16:35:47.714 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 16:35:47.717 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-04-10 16:35:47.977 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 245ms. Found 5 Elasticsearch repository interfaces.
+2020-04-10 16:35:47.985 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 16:35:47.986 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-04-10 16:35:48.020 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-04-10 16:35:48.102 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 16:35:48.104 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-10 16:35:48.245 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.ImgDARepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 16:35:48.246 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.ImgOutRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 16:35:48.247 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.LogDARepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 16:35:48.248 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.LogRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 16:35:48.248 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 16:35:48.248 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43ms. Found 0 Redis repository interfaces.
+2020-04-10 16:35:49.819 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.gx.dataI.common.config.RedisConfig$$EnhancerBySpringCGLIB$$6f6419f7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-10 16:35:50.935 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-10 16:35:50.948 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-10 16:35:50.949 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-10 16:35:50.949 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 16:35:51.117 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-04-10 16:35:51.118 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7456 ms
+2020-04-10 16:35:52.239 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-04-10 16:35:52.241 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-04-10 16:35:53.674 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2020-04-10 16:35:53.678 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-04-10 16:35:53.679 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-04-10 16:35:53.679 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-04-10 16:35:53.680 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-04-10 16:35:53.680 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-04-10 16:35:58.331 [restartedMain] INFO  o.s.d.e.client.TransportClientFactoryBean - Adding transport node : 192.168.18.236:9301
+2020-04-10 16:36:21.852 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-04-10 16:36:23.513 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-10 16:36:25.899 [restartedMain] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2020-04-10 16:36:25.901 [restartedMain] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2020-04-10 16:36:26.087 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-10 16:36:26.495 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 16:36:29.583 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-10 16:36:29.602 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-10 16:36:29.651 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-10 16:36:29.928 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2020-04-10 16:36:29.948 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-04-10 16:36:29.954 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2020-04-10 16:36:29.964 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: urlUsingGET_1
+2020-04-10 16:36:29.983 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_2
+2020-04-10 16:36:29.998 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingPOST_1
+2020-04-10 16:36:30.000 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2020-04-10 16:36:30.014 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingGET_1
+2020-04-10 16:36:30.015 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingPOST_1
+2020-04-10 16:36:30.622 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-04-10 16:36:30.631 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-10 16:36:30.664 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/datai'
+2020-04-10 16:36:30.667 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Started HzdosDataInterfaceApplication in 48.245 seconds (JVM running for 50.954)
+2020-04-10 16:36:53.626 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 16:36:53.627 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-10 16:36:53.650 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 23 ms
+2020-04-10 16:41:47.794 [http-nio-8080-exec-8] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://192.168.18.76:8080/datai/login
+2020-04-10 16:41:47.795 [http-nio-8080-exec-8] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : POST
+2020-04-10 16:41:47.795 [http-nio-8080-exec-8] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.api.controller.LoginController.login
+2020-04-10 16:41:47.947 [http-nio-8080-exec-8] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [null, {"pass":"pwj123456","name":"pwj"}]
+2020-04-10 16:41:48.371 [http-nio-8080-exec-8] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 577
+2020-04-10 16:42:00.136 [http-nio-8080-exec-1] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://192.168.18.76:8080/datai/dosJz/list
+2020-04-10 16:42:00.137 [http-nio-8080-exec-1] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : GET
+2020-04-10 16:42:00.137 [http-nio-8080-exec-1] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.hzdospro.controller.DosJzController.listDosJz
+2020-04-10 16:42:00.137 [http-nio-8080-exec-1] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [null, null]
+2020-04-10 16:42:00.520 [http-nio-8080-exec-1] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 384
+2020-04-10 16:42:32.855 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-10 16:42:32.990 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-10 16:46:57.575 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 16292 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-04-10 16:46:57.579 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - No active profile set, falling back to default profiles: default
+2020-04-10 16:46:57.647 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 16:46:57.647 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 16:46:59.881 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 16:46:59.884 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-04-10 16:47:00.617 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 726ms. Found 5 Elasticsearch repository interfaces.
+2020-04-10 16:47:00.631 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 16:47:00.632 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-04-10 16:47:00.686 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-04-10 16:47:00.720 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 16:47:00.722 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-10 16:47:00.779 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.ImgDARepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 16:47:00.781 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.ImgOutRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 16:47:00.783 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.LogDARepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 16:47:00.783 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.LogRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 16:47:00.784 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 16:47:00.784 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45ms. Found 0 Redis repository interfaces.
+2020-04-10 16:47:02.278 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.gx.dataI.common.config.RedisConfig$$EnhancerBySpringCGLIB$$6987c3cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-10 16:47:03.116 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-10 16:47:03.126 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-10 16:47:03.127 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-10 16:47:03.127 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 16:47:03.263 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-04-10 16:47:03.263 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5615 ms
+2020-04-10 16:47:03.877 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-04-10 16:47:03.879 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-04-10 16:47:04.894 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2020-04-10 16:47:04.896 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-04-10 16:47:04.896 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-04-10 16:47:04.896 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-04-10 16:47:04.896 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-04-10 16:47:04.896 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-04-10 16:47:07.319 [restartedMain] INFO  o.s.d.e.client.TransportClientFactoryBean - Adding transport node : 192.168.18.236:9301
+2020-04-10 16:47:10.868 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-04-10 16:47:13.984 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-10 16:47:15.956 [restartedMain] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2020-04-10 16:47:15.958 [restartedMain] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2020-04-10 16:47:26.192 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-10 16:47:26.321 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-10 16:47:26.333 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-10 16:48:49.931 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 3300 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-04-10 16:48:49.940 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - No active profile set, falling back to default profiles: default
+2020-04-10 16:48:50.018 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 16:48:50.019 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 16:48:52.511 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 16:48:52.514 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-04-10 16:48:52.658 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 138ms. Found 5 Elasticsearch repository interfaces.
+2020-04-10 16:48:52.665 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 16:48:52.666 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-04-10 16:48:52.705 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-04-10 16:48:52.728 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 16:48:52.730 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-10 16:48:52.782 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.ImgDARepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 16:48:52.783 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.ImgOutRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 16:48:52.784 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.LogDARepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 16:48:52.784 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.LogRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 16:48:52.785 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 16:48:52.785 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 Redis repository interfaces.
+2020-04-10 16:48:53.617 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.gx.dataI.common.config.RedisConfig$$EnhancerBySpringCGLIB$$52b9edcb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-10 16:48:54.746 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-10 16:48:54.763 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-10 16:48:54.764 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-10 16:48:54.764 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 16:48:54.939 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-04-10 16:48:54.940 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4921 ms
+2020-04-10 16:48:55.706 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-04-10 16:48:55.707 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-04-10 16:48:56.980 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2020-04-10 16:48:56.981 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-04-10 16:48:56.981 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-04-10 16:48:56.981 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-04-10 16:48:56.982 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-04-10 16:48:56.982 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-04-10 16:48:59.520 [restartedMain] INFO  o.s.d.e.client.TransportClientFactoryBean - Adding transport node : 192.168.18.236:9301
+2020-04-10 16:49:01.597 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-04-10 16:49:03.440 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-10 16:49:05.362 [restartedMain] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2020-04-10 16:49:05.364 [restartedMain] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2020-04-10 16:49:05.460 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-10 16:49:05.786 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 16:49:07.820 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-10 16:49:07.839 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-10 16:49:07.889 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-10 16:49:08.104 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2020-04-10 16:49:08.120 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-04-10 16:49:08.128 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2020-04-10 16:49:08.137 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: urlUsingGET_1
+2020-04-10 16:49:08.153 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_2
+2020-04-10 16:49:08.169 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingPOST_1
+2020-04-10 16:49:08.172 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2020-04-10 16:49:08.185 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingGET_1
+2020-04-10 16:49:08.188 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingPOST_1
+2020-04-10 16:49:08.785 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-04-10 16:49:08.796 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-10 16:49:08.816 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/datai'
+2020-04-10 16:49:08.820 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Started HzdosDataInterfaceApplication in 20.093 seconds (JVM running for 22.662)
+2020-04-10 16:49:48.322 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-10 16:49:48.456 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-10 16:50:03.121 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 15968 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-04-10 16:50:03.126 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - No active profile set, falling back to default profiles: default
+2020-04-10 16:50:03.185 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 16:50:03.186 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 16:50:05.435 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 16:50:05.437 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-04-10 16:50:05.571 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 128ms. Found 5 Elasticsearch repository interfaces.
+2020-04-10 16:50:05.579 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 16:50:05.580 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-04-10 16:50:05.615 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-04-10 16:50:05.635 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 16:50:05.636 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-10 16:50:05.691 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.ImgDARepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 16:50:05.692 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.ImgOutRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 16:50:05.694 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.LogDARepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 16:50:05.694 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.LogRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 16:50:05.695 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 16:50:05.696 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46ms. Found 0 Redis repository interfaces.
+2020-04-10 16:50:06.498 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.gx.dataI.common.config.RedisConfig$$EnhancerBySpringCGLIB$$e2acaefb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-10 16:50:07.074 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-10 16:50:07.086 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-10 16:50:07.087 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-10 16:50:07.087 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 16:50:07.234 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-04-10 16:50:07.234 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4048 ms
+2020-04-10 16:50:07.904 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-04-10 16:50:07.906 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-04-10 16:50:08.877 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2020-04-10 16:50:08.878 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-04-10 16:50:08.879 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-04-10 16:50:08.879 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-04-10 16:50:08.879 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-04-10 16:50:08.879 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-04-10 16:50:11.281 [restartedMain] INFO  o.s.d.e.client.TransportClientFactoryBean - Adding transport node : 192.168.18.236:9301
+2020-04-10 16:50:13.374 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-04-10 16:50:15.060 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-10 16:50:16.904 [restartedMain] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2020-04-10 16:50:16.907 [restartedMain] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2020-04-10 16:50:17.000 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-10 16:50:17.327 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 16:50:19.528 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-10 16:50:19.563 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-10 16:50:19.633 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-10 16:50:19.837 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2020-04-10 16:50:19.853 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-04-10 16:50:19.859 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2020-04-10 16:50:19.867 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: urlUsingGET_1
+2020-04-10 16:50:19.884 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_2
+2020-04-10 16:50:19.899 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingPOST_1
+2020-04-10 16:50:19.901 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2020-04-10 16:50:19.915 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingGET_1
+2020-04-10 16:50:19.918 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingPOST_1
+2020-04-10 16:50:20.513 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-04-10 16:50:20.523 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-10 16:50:20.542 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/datai'
+2020-04-10 16:50:20.546 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Started HzdosDataInterfaceApplication in 18.491 seconds (JVM running for 21.405)
+2020-04-10 16:50:29.597 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 16:50:29.598 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-10 16:50:29.630 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 32 ms
+2020-04-10 16:50:29.749 [http-nio-8080-exec-1] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://192.168.18.76:8080/datai/login
+2020-04-10 16:50:29.749 [http-nio-8080-exec-1] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : POST
+2020-04-10 16:50:29.750 [http-nio-8080-exec-1] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.api.controller.LoginController.login
+2020-04-10 16:50:29.793 [http-nio-8080-exec-1] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [null, {"pass":"pwj123456","name":"pwj"}]
+2020-04-10 16:50:29.946 [http-nio-8080-exec-1] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 198
+2020-04-10 17:25:17.949 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 9488 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-04-10 17:25:17.955 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - No active profile set, falling back to default profiles: default
+2020-04-10 17:25:18.027 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 17:25:18.028 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 17:25:19.390 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 17:25:19.392 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-04-10 17:25:19.580 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 181ms. Found 5 Elasticsearch repository interfaces.
+2020-04-10 17:25:19.589 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 17:25:19.590 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-04-10 17:25:19.670 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 80ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-04-10 17:25:19.705 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 17:25:19.707 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-10 17:25:19.763 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.ImgDARepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 17:25:19.763 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.ImgOutRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 17:25:19.764 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.LogDARepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 17:25:19.764 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.LogRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 17:25:19.765 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 17:25:19.765 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35ms. Found 0 Redis repository interfaces.
+2020-04-10 17:25:21.089 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.gx.dataI.common.config.RedisConfig$$EnhancerBySpringCGLIB$$f836c082] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-10 17:25:21.704 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18081 (http)
+2020-04-10 17:25:21.715 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18081"]
+2020-04-10 17:25:21.715 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-10 17:25:21.716 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 17:25:21.867 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-04-10 17:25:21.868 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3840 ms
+2020-04-10 17:25:22.496 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-04-10 17:25:22.497 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-04-10 17:25:23.456 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2020-04-10 17:25:23.458 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-04-10 17:25:23.458 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-04-10 17:25:23.458 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-04-10 17:25:23.458 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-04-10 17:25:23.458 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-04-10 17:25:25.874 [restartedMain] INFO  o.s.d.e.client.TransportClientFactoryBean - Adding transport node : 192.168.18.236:9301
+2020-04-10 17:25:27.944 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-04-10 17:25:29.549 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-10 17:25:31.490 [restartedMain] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2020-04-10 17:25:31.493 [restartedMain] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2020-04-10 17:25:31.590 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-10 17:25:31.920 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 17:25:34.048 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-10 17:25:34.067 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-10 17:25:34.111 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-10 17:25:34.356 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2020-04-10 17:25:34.377 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-04-10 17:25:34.383 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2020-04-10 17:25:34.395 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: urlUsingGET_1
+2020-04-10 17:25:34.415 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_2
+2020-04-10 17:25:34.436 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingPOST_1
+2020-04-10 17:25:34.438 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2020-04-10 17:25:34.457 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingGET_1
+2020-04-10 17:25:34.459 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingPOST_1
+2020-04-10 17:25:35.076 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-04-10 17:25:35.083 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18081"]
+2020-04-10 17:25:35.103 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18081 (http) with context path '/datai'
+2020-04-10 17:25:35.107 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Started HzdosDataInterfaceApplication in 18.372 seconds (JVM running for 20.767)
+2020-04-10 17:26:00.363 [http-nio-18081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 17:26:00.364 [http-nio-18081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-10 17:26:00.392 [http-nio-18081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 28 ms
+2020-04-10 17:26:00.550 [http-nio-18081-exec-1] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://localhost:18080/datai/login
+2020-04-10 17:26:00.550 [http-nio-18081-exec-1] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : POST
+2020-04-10 17:26:00.551 [http-nio-18081-exec-1] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.api.controller.LoginController.login
+2020-04-10 17:26:00.636 [http-nio-18081-exec-1] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [null, {"pass":"pwj123456","name":"pwj"}]
+2020-04-10 17:26:00.780 [http-nio-18081-exec-1] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 231
+2020-04-10 17:28:55.131 [http-nio-18081-exec-6] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://localhost:18080/datai/login
+2020-04-10 17:28:55.132 [http-nio-18081-exec-6] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : POST
+2020-04-10 17:28:55.132 [http-nio-18081-exec-6] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.api.controller.LoginController.login
+2020-04-10 17:28:55.132 [http-nio-18081-exec-6] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [null, {"pass":"pwj123456","name":"pwj"}]
+2020-04-10 17:28:55.144 [http-nio-18081-exec-6] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 13
+2020-04-10 17:28:56.980 [http-nio-18081-exec-5] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://localhost:18080/datai/login
+2020-04-10 17:28:56.980 [http-nio-18081-exec-5] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : POST
+2020-04-10 17:28:56.981 [http-nio-18081-exec-5] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.api.controller.LoginController.login
+2020-04-10 17:28:56.981 [http-nio-18081-exec-5] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [null, {"pass":"pwj123456","name":"pwj"}]
+2020-04-10 17:28:56.993 [http-nio-18081-exec-5] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 13
+2020-04-10 17:28:58.828 [http-nio-18081-exec-7] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://localhost:18080/datai/login
+2020-04-10 17:28:58.828 [http-nio-18081-exec-7] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : POST
+2020-04-10 17:28:58.828 [http-nio-18081-exec-7] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.api.controller.LoginController.login
+2020-04-10 17:28:58.828 [http-nio-18081-exec-7] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [null, {"pass":"pwj123456","name":"pwj"}]
+2020-04-10 17:28:58.837 [http-nio-18081-exec-7] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 9
+2020-04-10 17:29:00.768 [http-nio-18081-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://localhost:18080/datai/login
+2020-04-10 17:29:00.768 [http-nio-18081-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : POST
+2020-04-10 17:29:00.768 [http-nio-18081-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.api.controller.LoginController.login
+2020-04-10 17:29:00.768 [http-nio-18081-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [null, {"pass":"pwj123456","name":"pwj"}]
+2020-04-10 17:29:00.777 [http-nio-18081-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 9
+2020-04-10 17:30:01.454 [http-nio-18081-exec-8] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://localhost:18080/datai/login
+2020-04-10 17:30:01.454 [http-nio-18081-exec-8] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : POST
+2020-04-10 17:30:01.454 [http-nio-18081-exec-8] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.api.controller.LoginController.login
+2020-04-10 17:30:01.455 [http-nio-18081-exec-8] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [null, {"pass":"pwj123456","name":"pwj"}]
+2020-04-10 17:30:01.464 [http-nio-18081-exec-8] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 11
+2020-04-10 17:30:54.376 [Thread-25] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-10 17:30:54.481 [Thread-25] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-10 17:30:56.772 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 9488 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-04-10 17:30:56.772 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - No active profile set, falling back to default profiles: default
+2020-04-10 17:30:57.626 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 17:30:57.627 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-04-10 17:30:57.792 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 164ms. Found 5 Elasticsearch repository interfaces.
+2020-04-10 17:30:57.795 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 17:30:57.796 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-04-10 17:30:57.864 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-04-10 17:30:57.915 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 17:30:57.915 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-10 17:30:57.946 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.ImgDARepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 17:30:57.948 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.ImgOutRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 17:30:57.952 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.LogDARepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 17:30:57.953 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.LogRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 17:30:57.954 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 17:30:57.954 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38ms. Found 0 Redis repository interfaces.
+2020-04-10 17:30:58.142 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.gx.dataI.common.config.RedisConfig$$EnhancerBySpringCGLIB$$f836c082] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-10 17:30:58.456 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18081 (http)
+2020-04-10 17:30:58.457 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18081"]
+2020-04-10 17:30:58.458 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-10 17:30:58.458 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 17:30:58.494 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-04-10 17:30:58.494 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1716 ms
+2020-04-10 17:30:58.659 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-04-10 17:30:58.662 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-04-10 17:30:58.752 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2020-04-10 17:30:58.752 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-04-10 17:30:58.752 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-04-10 17:30:58.752 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-04-10 17:30:58.752 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-04-10 17:30:58.752 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-04-10 17:30:58.765 [restartedMain] INFO  o.s.d.e.client.TransportClientFactoryBean - Adding transport node : 192.168.18.236:9301
+2020-04-10 17:30:58.965 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-04-10 17:31:00.374 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2020-04-10 17:31:01.696 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-10 17:31:01.947 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 17:31:02.701 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-10 17:31:02.702 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-10 17:31:02.709 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-10 17:31:02.743 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2020-04-10 17:31:02.754 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-04-10 17:31:02.760 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2020-04-10 17:31:02.766 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: urlUsingGET_1
+2020-04-10 17:31:02.772 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_2
+2020-04-10 17:31:02.784 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingPOST_1
+2020-04-10 17:31:02.787 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2020-04-10 17:31:02.798 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingGET_1
+2020-04-10 17:31:02.799 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingPOST_1
+2020-04-10 17:31:03.324 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-04-10 17:31:03.325 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18081"]
+2020-04-10 17:31:03.328 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18081 (http) with context path '/datai'
+2020-04-10 17:31:03.329 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Started HzdosDataInterfaceApplication in 6.725 seconds (JVM running for 348.988)
+2020-04-10 17:31:03.331 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-04-10 17:31:39.104 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-10 17:33:50.529 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 10424 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-04-10 17:33:50.534 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - No active profile set, falling back to default profiles: default
+2020-04-10 17:33:50.601 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 17:33:50.601 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 17:33:53.678 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 17:33:53.682 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-04-10 17:33:53.912 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 217ms. Found 5 Elasticsearch repository interfaces.
+2020-04-10 17:33:53.921 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 17:33:53.922 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-04-10 17:33:53.968 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-04-10 17:33:54.009 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 17:33:54.012 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-10 17:33:54.129 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.ImgDARepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 17:33:54.130 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.ImgOutRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 17:33:54.131 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.LogDARepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 17:33:54.132 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.LogRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 17:33:54.145 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 17:33:54.145 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55ms. Found 0 Redis repository interfaces.
+2020-04-10 17:33:55.272 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.gx.dataI.common.config.RedisConfig$$EnhancerBySpringCGLIB$$fb77b263] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-10 17:33:56.163 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18081 (http)
+2020-04-10 17:33:56.180 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18081"]
+2020-04-10 17:33:56.181 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-10 17:33:56.181 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 17:33:56.351 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-04-10 17:33:56.351 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5750 ms
+2020-04-10 17:33:57.096 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-04-10 17:33:57.097 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-04-10 17:33:58.698 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2020-04-10 17:33:58.699 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-04-10 17:33:58.700 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-04-10 17:33:58.700 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-04-10 17:33:58.700 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-04-10 17:33:58.700 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-04-10 17:34:01.167 [restartedMain] INFO  o.s.d.e.client.TransportClientFactoryBean - Adding transport node : 192.168.18.236:9301
+2020-04-10 17:34:03.308 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-04-10 17:34:04.826 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-10 17:34:06.804 [restartedMain] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2020-04-10 17:34:06.806 [restartedMain] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2020-04-10 17:34:06.904 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-10 17:34:07.280 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 17:34:09.457 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-10 17:34:09.479 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-10 17:34:09.572 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-10 17:34:09.780 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2020-04-10 17:34:09.798 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-04-10 17:34:09.804 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2020-04-10 17:34:09.813 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: urlUsingGET_1
+2020-04-10 17:34:09.828 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_2
+2020-04-10 17:34:09.844 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingPOST_1
+2020-04-10 17:34:09.846 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2020-04-10 17:34:09.862 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingGET_1
+2020-04-10 17:34:09.863 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingPOST_1
+2020-04-10 17:34:10.456 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-04-10 17:34:10.467 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18081"]
+2020-04-10 17:34:10.485 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18081 (http) with context path '/datai'
+2020-04-10 17:34:10.489 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Started HzdosDataInterfaceApplication in 20.811 seconds (JVM running for 23.864)
+2020-04-10 17:34:30.044 [http-nio-18081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 17:34:30.045 [http-nio-18081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-10 17:34:30.095 [http-nio-18081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 50 ms
+2020-04-10 17:38:30.059 [http-nio-18081-exec-5] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://localhost:18080/datai/dosJz/list
+2020-04-10 17:38:30.060 [http-nio-18081-exec-5] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : GET
+2020-04-10 17:38:30.062 [http-nio-18081-exec-5] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.hzdospro.controller.DosJzController.listDosJz
+2020-04-10 17:38:30.063 [http-nio-18081-exec-5] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [null, null]
+2020-04-10 17:38:30.510 [http-nio-18081-exec-5] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 453
+2020-04-10 17:59:55.787 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-10 17:59:55.894 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-10 18:09:17.848 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 13944 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-04-10 18:09:17.865 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - No active profile set, falling back to default profiles: default
+2020-04-10 18:09:17.964 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 18:09:17.964 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 18:09:20.912 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 18:09:20.921 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-04-10 18:09:21.192 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 257ms. Found 5 Elasticsearch repository interfaces.
+2020-04-10 18:09:21.199 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 18:09:21.200 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-04-10 18:09:21.243 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-04-10 18:09:21.281 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 18:09:21.288 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-10 18:09:21.433 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.ImgDARepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 18:09:21.433 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.ImgOutRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 18:09:21.436 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.LogDARepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 18:09:21.436 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.LogRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 18:09:21.437 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 18:09:21.437 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 108ms. Found 0 Redis repository interfaces.
+2020-04-10 18:09:23.512 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.gx.dataI.common.config.RedisConfig$$EnhancerBySpringCGLIB$$72338cec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-10 18:09:24.646 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18081 (http)
+2020-04-10 18:09:24.726 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18081"]
+2020-04-10 18:09:24.728 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-10 18:09:24.728 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 18:09:25.107 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-04-10 18:09:25.108 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7143 ms
+2020-04-10 18:09:26.385 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-04-10 18:09:26.388 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-04-10 18:09:28.003 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2020-04-10 18:09:28.010 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-04-10 18:09:28.011 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-04-10 18:09:28.011 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-04-10 18:09:28.012 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-04-10 18:09:28.012 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-04-10 18:09:32.112 [restartedMain] INFO  o.s.d.e.client.TransportClientFactoryBean - Adding transport node : 192.168.18.236:9301
+2020-04-10 18:09:36.976 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-04-10 18:09:46.153 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 18140 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-04-10 18:09:46.157 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - No active profile set, falling back to default profiles: default
+2020-04-10 18:09:46.220 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 18:09:46.221 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 18:09:47.599 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 18:09:47.602 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-04-10 18:09:47.770 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 160ms. Found 5 Elasticsearch repository interfaces.
+2020-04-10 18:09:47.778 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 18:09:47.779 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-04-10 18:09:47.850 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-04-10 18:09:47.877 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 18:09:47.879 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-10 18:09:47.948 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.ImgDARepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 18:09:47.949 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.ImgOutRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 18:09:47.950 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.LogDARepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 18:09:47.951 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.LogRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 18:09:47.952 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 18:09:47.952 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60ms. Found 0 Redis repository interfaces.
+2020-04-10 18:09:49.380 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.gx.dataI.common.config.RedisConfig$$EnhancerBySpringCGLIB$$3511cd78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-10 18:09:50.017 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18082 (http)
+2020-04-10 18:09:50.030 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18082"]
+2020-04-10 18:09:50.031 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-10 18:09:50.031 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 18:09:50.185 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-04-10 18:09:50.186 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3965 ms
+2020-04-10 18:09:51.107 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-04-10 18:09:51.109 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-04-10 18:09:53.020 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2020-04-10 18:09:53.024 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-04-10 18:09:53.024 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-04-10 18:09:53.024 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-04-10 18:09:53.024 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-04-10 18:09:53.025 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-04-10 18:09:56.666 [restartedMain] INFO  o.s.d.e.client.TransportClientFactoryBean - Adding transport node : 192.168.18.236:9301
+2020-04-10 18:09:58.783 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-04-10 18:10:00.353 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-10 18:10:02.231 [restartedMain] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2020-04-10 18:10:02.234 [restartedMain] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2020-04-10 18:10:02.330 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-10 18:10:02.654 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 18:10:04.821 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-10 18:10:04.842 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-10 18:10:04.917 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-10 18:10:05.130 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2020-04-10 18:10:05.151 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-04-10 18:10:05.157 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2020-04-10 18:10:05.168 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: urlUsingGET_1
+2020-04-10 18:10:05.185 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_2
+2020-04-10 18:10:05.203 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingPOST_1
+2020-04-10 18:10:05.204 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2020-04-10 18:10:05.219 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingGET_1
+2020-04-10 18:10:05.221 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingPOST_1
+2020-04-10 18:10:05.822 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-04-10 18:10:05.834 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18082"]
+2020-04-10 18:10:05.908 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18082 (http) with context path '/datai'
+2020-04-10 18:10:05.912 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Started HzdosDataInterfaceApplication in 20.948 seconds (JVM running for 23.424)
+2020-04-10 18:10:11.197 [http-nio-18082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 18:10:11.197 [http-nio-18082-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-10 18:10:11.251 [http-nio-18082-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 54 ms
+2020-04-10 18:10:11.602 [http-nio-18082-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://localhost:18082/datai/login
+2020-04-10 18:10:11.602 [http-nio-18082-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : POST
+2020-04-10 18:10:11.602 [http-nio-18082-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.api.controller.LoginController.login
+2020-04-10 18:10:11.862 [http-nio-18082-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [null, {"pass":"pwj123456","name":"pwj"}]
+2020-04-10 18:10:12.118 [http-nio-18082-exec-2] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 517
+2020-04-10 18:10:27.339 [http-nio-18082-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://localhost:18082/datai/url/N1ZxMU9BNGpxZzg3Rk5tZ0NyWWVKYk1qQlVscFBEdjU4UjViKy91akt5cnFIMDY4OS9SSWg1dFBOWTBEanVPdmZwWHRBMHRrTTdHTkxkTUFCRHNOK2c9PQ
+2020-04-10 18:10:27.339 [http-nio-18082-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : GET
+2020-04-10 18:10:27.340 [http-nio-18082-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.api.controller.DownloadController.url
+2020-04-10 18:10:27.340 [http-nio-18082-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [N1ZxMU9BNGpxZzg3Rk5tZ0NyWWVKYk1qQlVscFBEdjU4UjViKy91akt5cnFIMDY4OS9SSWg1dFBOWTBEanVPdmZwWHRBMHRrTTdHTkxkTUFCRHNOK2c9PQ, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@60dc0c56, com.alibaba.druid.support.http.WebStatFilter$StatHttpServletResponseWrapper@4c4bb0e1]
+2020-04-10 18:10:27.399 [http-nio-18082-exec-3] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 60
+2020-04-10 18:10:45.163 [http-nio-18082-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://localhost:18082/datai/url/N1ZxMU9BNGpxZzg3Rk5tZ0NyWWVKYk1qQlVscFBEdjU4UjViKy91akt5cnFIMDY4OS9SSWg1dFBOWTBEanVPdmZwWHRBMHRrTTdHTkxkTUFCRHNOK2c9PQ
+2020-04-10 18:10:45.165 [http-nio-18082-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : GET
+2020-04-10 18:10:45.165 [http-nio-18082-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.api.controller.DownloadController.url
+2020-04-10 18:10:45.169 [http-nio-18082-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [N1ZxMU9BNGpxZzg3Rk5tZ0NyWWVKYk1qQlVscFBEdjU4UjViKy91akt5cnFIMDY4OS9SSWg1dFBOWTBEanVPdmZwWHRBMHRrTTdHTkxkTUFCRHNOK2c9PQ, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@1481092, com.alibaba.druid.support.http.WebStatFilter$StatHttpServletResponseWrapper@584b4f21]
+2020-04-10 18:11:12.226 [http-nio-18082-exec-4] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 27063
+2020-04-10 19:09:30.171 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-10 19:15:35.678 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 11528 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-04-10 19:15:35.683 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - No active profile set, falling back to default profiles: default
+2020-04-10 19:15:35.799 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 19:15:35.800 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 19:15:37.207 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 19:15:37.211 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-04-10 19:15:37.370 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 153ms. Found 5 Elasticsearch repository interfaces.
+2020-04-10 19:15:37.377 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 19:15:37.378 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-04-10 19:15:37.418 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-04-10 19:15:37.437 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 19:15:37.438 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-10 19:15:37.484 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.ImgDARepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 19:15:37.485 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.ImgOutRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 19:15:37.486 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.LogDARepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 19:15:37.486 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.LogRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 19:15:37.487 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 19:15:37.487 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 Redis repository interfaces.
+2020-04-10 19:15:38.759 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.gx.dataI.common.config.RedisConfig$$EnhancerBySpringCGLIB$$720c5a14] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-10 19:15:40.484 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18082 (http)
+2020-04-10 19:15:40.509 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18082"]
+2020-04-10 19:15:40.510 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-10 19:15:40.510 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 19:15:40.901 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-04-10 19:15:40.902 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5101 ms
+2020-04-10 19:15:41.920 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-04-10 19:15:41.925 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-04-10 19:15:45.089 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2020-04-10 19:15:45.091 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-04-10 19:15:45.091 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-04-10 19:15:45.092 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-04-10 19:15:45.092 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-04-10 19:15:45.093 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-04-10 19:15:50.706 [restartedMain] INFO  o.s.d.e.client.TransportClientFactoryBean - Adding transport node : 192.168.18.236:9301
+2020-04-10 19:15:53.552 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-04-10 19:15:55.137 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-10 19:15:57.035 [restartedMain] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2020-04-10 19:15:57.037 [restartedMain] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2020-04-10 19:15:57.135 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-10 19:15:57.467 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 19:15:59.592 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-10 19:15:59.613 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-10 19:15:59.665 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-10 19:15:59.879 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2020-04-10 19:15:59.897 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-04-10 19:15:59.903 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2020-04-10 19:15:59.912 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: urlUsingGET_1
+2020-04-10 19:15:59.930 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_2
+2020-04-10 19:15:59.946 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingPOST_1
+2020-04-10 19:15:59.949 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2020-04-10 19:15:59.962 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingGET_1
+2020-04-10 19:15:59.964 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingPOST_1
+2020-04-10 19:16:00.568 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-04-10 19:16:00.578 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18082"]
+2020-04-10 19:16:00.596 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18082 (http) with context path '/datai'
+2020-04-10 19:16:00.600 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Started HzdosDataInterfaceApplication in 25.918 seconds (JVM running for 28.323)
+2020-04-10 19:16:10.764 [http-nio-18082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 19:16:10.764 [http-nio-18082-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-10 19:16:10.788 [http-nio-18082-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 23 ms
+2020-04-10 19:18:07.889 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-10 19:18:08.056 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-10 19:18:26.717 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Starting HzdosDataInterfaceApplication on DESKTOP-SHA1SRH with PID 15796 (D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface\target\classes started by Administrator in D:\Dev\Projects\Idea\HZDOS_EX\hzdos-data-interface)
+2020-04-10 19:18:26.768 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - No active profile set, falling back to default profiles: default
+2020-04-10 19:18:26.836 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-10 19:18:26.836 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-10 19:18:28.858 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 19:18:28.860 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-04-10 19:18:28.991 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 125ms. Found 5 Elasticsearch repository interfaces.
+2020-04-10 19:18:28.998 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 19:18:28.999 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-04-10 19:18:29.031 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-04-10 19:18:29.051 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-10 19:18:29.053 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-10 19:18:29.096 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.ImgDARepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 19:18:29.097 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.ImgOutRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 19:18:29.097 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.LogDARepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 19:18:29.098 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.LogRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 19:18:29.098 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.gx.dataI.api.es.repository.UserRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-04-10 19:18:29.099 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 Redis repository interfaces.
+2020-04-10 19:18:29.892 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.gx.dataI.common.config.RedisConfig$$EnhancerBySpringCGLIB$$8363fdd7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-10 19:18:30.465 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18082 (http)
+2020-04-10 19:18:30.477 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18082"]
+2020-04-10 19:18:30.478 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-10 19:18:30.478 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-10 19:18:30.634 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring embedded WebApplicationContext
+2020-04-10 19:18:30.634 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3798 ms
+2020-04-10 19:18:31.232 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2020-04-10 19:18:31.234 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2020-04-10 19:18:32.199 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - no modules loaded
+2020-04-10 19:18:32.200 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-04-10 19:18:32.200 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-04-10 19:18:32.200 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-04-10 19:18:32.200 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-04-10 19:18:32.201 [restartedMain] INFO  org.elasticsearch.plugins.PluginsService - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-04-10 19:18:34.551 [restartedMain] INFO  o.s.d.e.client.TransportClientFactoryBean - Adding transport node : 192.168.18.236:9301
+2020-04-10 19:18:36.583 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-04-10 19:18:38.253 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-10 19:18:41.453 [restartedMain] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2020-04-10 19:18:41.455 [restartedMain] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2020-04-10 19:18:41.587 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-10 19:18:42.813 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-10 19:18:45.618 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-10 19:18:45.639 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-10 19:18:45.697 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-10 19:18:45.977 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2020-04-10 19:18:45.993 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-04-10 19:18:46.000 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2020-04-10 19:18:46.010 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: urlUsingGET_1
+2020-04-10 19:18:46.025 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_2
+2020-04-10 19:18:46.040 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingPOST_1
+2020-04-10 19:18:46.042 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listUsingGET_1
+2020-04-10 19:18:46.058 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingGET_1
+2020-04-10 19:18:46.060 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDosJzUsingPOST_1
+2020-04-10 19:18:46.652 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-04-10 19:18:46.663 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18082"]
+2020-04-10 19:18:46.683 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18082 (http) with context path '/datai'
+2020-04-10 19:18:46.687 [restartedMain] INFO  com.gx.dataI.HzdosDataInterfaceApplication - Started HzdosDataInterfaceApplication in 20.765 seconds (JVM running for 22.984)
+2020-04-10 19:19:15.410 [http-nio-18082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/datai] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-10 19:19:15.411 [http-nio-18082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-10 19:19:15.439 [http-nio-18082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 28 ms
+2020-04-10 19:19:51.862 [http-nio-18082-exec-9] INFO  com.gx.dataI.common.aop.WebLogAspect - 请求地址 : http://localhost:18082/datai/generator/generate
+2020-04-10 19:19:51.862 [http-nio-18082-exec-9] INFO  com.gx.dataI.common.aop.WebLogAspect - HTTP METHOD : POST
+2020-04-10 19:19:51.864 [http-nio-18082-exec-9] INFO  com.gx.dataI.common.aop.WebLogAspect - CLASS_METHOD : com.gx.dataI.common.controller.GeneratorController.generate
+2020-04-10 19:19:51.864 [http-nio-18082-exec-9] INFO  com.gx.dataI.common.aop.WebLogAspect - 参数 : [com.gx.datai.system, jj, JWQW, JWQW, [Ljava.lang.String;@187ba5b4]
+2020-04-10 19:19:52.948 [http-nio-18082-exec-9] INFO  com.gx.dataI.common.aop.WebLogAspect - 耗时 : 1087
+2020-04-10 19:24:29.232 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

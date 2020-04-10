@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gx.dataI.hzdospro.mapper.OriInfoPrimaryMapper">
+    <insert id="insertOriInfo">
+        ${insertSql}
+    </insert>
+    <delete id="deleteByJzbh">
+    DELETE
+    FROM
+        ORI_INFO_PRIMARY
+    WHERE
+        YWTPBH IN (
+        SELECT
+            TPBH
+        FROM
+            TM_TMTPXXB
+    WHERE
+        BH = #{jzbh})
+    </delete>
+    <delete id="deleteOriInfoByGUID">
+        delete from ${table} where GUID = #{guid}
+    </delete>
+    <select id="getCountOriNum" resultType="java.lang.Integer">
+        select count(0) from ORI_INFO_PRIMARY t
+		left join TM_TMTPXXB tpxxb
+		on t.YWTPBH = tpxxb.TPBH
+			where
+		t.CONSISTENCY = #{state}
+			and
+		tpxxb.BH = #{jzbh}
+    </select>
+    <select id="getTableCol" resultType="java.util.Map">
+        SELECT
+            col.EN_NAME,
+            col."TYPE"
+        FROM
+            DICT_MATERIAL_COLUMN mc
+            LEFT JOIN DICT_COLUMN col ON mc.COLUMN_ID = col.ID
+        WHERE
+            MATERIAL_ID = #{materialId}
+    </select>
+    <select id="getDictMaterial" resultType="java.util.Map">
+        SELECT
+            *
+        FROM
+            DICT_MATERIAL
+        WHERE
+            ID = #{materialId}
+    </select>
+    <select id="getByJzbh" resultType="com.gx.dataI.hzdospro.model.OriInfoPrimary">
+        SELECT
+        *
+        FROM
+            ORI_INFO_PRIMARY
+        WHERE
+            YWTPBH IN (
+            SELECT
+                TPBH
+            FROM
+                TM_TMTPXXB
+        WHERE
+            BH = #{jzbh})
+    </select>
+</mapper>

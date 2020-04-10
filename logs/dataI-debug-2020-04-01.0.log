@@ -1,0 +1,107 @@
+2020-04-01 09:19:34.513 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 09:21:30.496 [http-nio-8085-exec-8] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.251
+2020-04-01 09:21:30.496 [http-nio-8085-exec-8] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 09:21:30.526 [http-nio-8085-exec-8] DEBUG com.gx.dataI.common.utils.FastDFSUtil - 上传路径=http://192.168.18.236:80group1/M00/00/00/wKgS-16D7JuAWnZBAAQ2uuDpq6E478.jpg
+2020-04-01 09:21:30.783 [http-nio-8085-exec-8] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"操作成功！","code":"200"}
+2020-04-01 09:23:09.840 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 09:24:25.245 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 09:25:08.698 [http-nio-8085-exec-2] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.252
+2020-04-01 09:25:08.699 [http-nio-8085-exec-2] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 09:25:08.709 [http-nio-8085-exec-2] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : null
+2020-04-01 09:26:06.970 [http-nio-8085-exec-4] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.251
+2020-04-01 09:26:06.970 [http-nio-8085-exec-4] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 09:27:20.307 [http-nio-8085-exec-4] DEBUG com.gx.dataI.common.utils.FastDFSUtil - 上传路径=http://192.168.18.236:80group1/M00/00/00/wKgS-16D7a-ATMWBAAQ2uuDpq6E639.jpg
+2020-04-01 09:27:20.499 [http-nio-8085-exec-4] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"操作成功！","code":"200"}
+2020-04-01 09:28:08.813 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 09:30:02.154 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 09:30:57.032 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.252
+2020-04-01 09:30:57.032 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 09:30:57.045 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : null
+2020-04-01 09:30:58.395 [http-nio-8085-exec-2] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.251
+2020-04-01 09:30:58.396 [http-nio-8085-exec-2] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 09:30:58.406 [http-nio-8085-exec-2] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : null
+2020-04-01 09:31:32.821 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 09:36:56.033 [http-nio-8085-exec-4] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"操作成功！","code":"200","token":"Uk5wbnVseXRXM005bDhsQ3RHdVZzd3Q5R3VyVFZXNXlsNDRVVkVqcEplOHNsUVppMm9STGk2ZFdnNTJJbmg1Kw"}
+2020-04-01 09:37:17.201 [http-nio-8085-exec-3] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"操作成功！","code":"200"}
+2020-04-01 09:41:56.391 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 09:42:21.602 [http-nio-8085-exec-2] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.252
+2020-04-01 09:42:21.603 [http-nio-8085-exec-2] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 09:42:21.628 [http-nio-8085-exec-2] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : null
+2020-04-01 09:42:23.020 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.251
+2020-04-01 09:42:23.020 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 09:42:23.029 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : null
+2020-04-01 09:43:07.168 [http-nio-8085-exec-3] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.252
+2020-04-01 09:43:07.168 [http-nio-8085-exec-3] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 09:43:07.170 [http-nio-8085-exec-3] DEBUG com.gx.dataI.common.utils.FastDFSUtil - 删除成功
+2020-04-01 09:43:07.212 [http-nio-8085-exec-3] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.251
+2020-04-01 09:43:07.213 [http-nio-8085-exec-3] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 09:43:07.229 [http-nio-8085-exec-3] DEBUG com.gx.dataI.common.utils.FastDFSUtil - 上传路径=http://192.168.18.236:80/group1/M00/00/00/wKgS-16D8auAad2VAAQ2uuDpq6E202.jpg
+2020-04-01 09:43:07.385 [http-nio-8085-exec-3] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"操作成功！","code":"200"}
+2020-04-01 09:43:22.522 [http-nio-8085-exec-5] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.252
+2020-04-01 09:43:22.523 [http-nio-8085-exec-5] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 09:43:22.545 [http-nio-8085-exec-5] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : null
+2020-04-01 09:45:03.201 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 09:45:28.688 [http-nio-8085-exec-2] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.251
+2020-04-01 09:45:28.689 [http-nio-8085-exec-2] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 09:45:28.703 [http-nio-8085-exec-2] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : null
+2020-04-01 09:45:39.427 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.252
+2020-04-01 09:45:39.427 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 09:45:39.438 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : null
+2020-04-01 09:45:44.594 [http-nio-8085-exec-3] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.251
+2020-04-01 09:45:44.595 [http-nio-8085-exec-3] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 09:45:44.602 [http-nio-8085-exec-3] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : null
+2020-04-01 09:47:50.817 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 09:53:03.403 [http-nio-8085-exec-2] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"文件不能为空！","code":"500"}
+2020-04-01 09:54:52.646 [http-nio-8085-exec-4] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.252
+2020-04-01 09:54:52.646 [http-nio-8085-exec-4] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 09:54:52.659 [http-nio-8085-exec-4] DEBUG com.gx.dataI.common.utils.FastDFSUtil - 上传路径=http://192.168.18.236:80/group1/M00/00/00/wKgS_F6D9GeAAghHAAHbOA3vJv4391.jpg
+2020-04-01 09:54:52.761 [http-nio-8085-exec-4] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"操作成功！","code":"200"}
+2020-04-01 09:55:29.075 [http-nio-8085-exec-6] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.251
+2020-04-01 09:55:29.076 [http-nio-8085-exec-6] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 09:55:29.080 [http-nio-8085-exec-6] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : null
+2020-04-01 09:59:18.615 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 10:00:06.320 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.252
+2020-04-01 10:00:06.320 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 10:00:06.325 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - 删除成功
+2020-04-01 10:00:06.367 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.251
+2020-04-01 10:00:06.367 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 10:00:06.377 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - 上传路径=http://192.168.18.236:80/group1/M00/00/00/wKgS-16D9aeAKYFqAAHbOA3vJv4806.jpg
+2020-04-01 10:00:06.549 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"操作成功！","code":"200"}
+2020-04-01 10:01:15.064 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 10:02:07.978 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 10:02:46.065 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"文件名不能为空！","code":"500"}
+2020-04-01 11:06:08.250 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 11:08:09.615 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 11:09:51.311 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.252
+2020-04-01 11:09:51.312 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 11:09:51.317 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - 删除成功
+2020-04-01 11:09:51.360 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.251
+2020-04-01 11:09:51.361 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 11:09:51.375 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - 上传路径=http://192.168.18.236:80/group1/M00/00/00/wKgS-16EBgCAEeGCAAHbOA3vJv4156.jpg
+2020-04-01 11:09:51.581 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"操作成功！","code":"200"}
+2020-04-01 11:10:35.936 [http-nio-8085-exec-3] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.252
+2020-04-01 11:10:35.937 [http-nio-8085-exec-3] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 11:10:35.941 [http-nio-8085-exec-3] DEBUG com.gx.dataI.common.utils.FastDFSUtil - 删除成功
+2020-04-01 11:10:35.985 [http-nio-8085-exec-3] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.251
+2020-04-01 11:10:35.986 [http-nio-8085-exec-3] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 11:10:35.992 [http-nio-8085-exec-3] DEBUG com.gx.dataI.common.utils.FastDFSUtil - 上传路径=http://192.168.18.236:80/group1/M00/00/00/wKgS-16EBiyAZDFZAAHbOA3vJv4206.jpg
+2020-04-01 11:10:36.048 [http-nio-8085-exec-3] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"操作成功！","code":"200"}
+2020-04-01 11:20:06.098 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 11:22:25.488 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.252
+2020-04-01 11:22:25.488 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 11:22:25.491 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - 删除成功
+2020-04-01 11:22:25.536 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.251
+2020-04-01 11:22:25.536 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 11:22:25.555 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.utils.FastDFSUtil - 上传路径=http://192.168.18.236:80/group1/M00/00/00/wKgS-16ECPKAc3TRAAHbOA3vJv4667.jpg
+2020-04-01 11:22:25.753 [http-nio-8085-exec-1] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"操作成功！","code":"200"}
+2020-04-01 11:26:08.125 [http-nio-8085-exec-5] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"操作成功！","code":"200","token":"cVQvdEluNTVWYWRpNUpNVmpNeCtlSWtLUGxHOHZZMGZ5QitPRFJieC84N1BONncvNm5KMEZiT1Nwb0hhM0xKUg"}
+2020-04-01 11:26:16.731 [http-nio-8085-exec-8] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"操作成功！","code":"200"}
+2020-04-01 11:26:55.290 [http-nio-8085-exec-7] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.252
+2020-04-01 11:26:55.290 [http-nio-8085-exec-7] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 11:26:55.292 [http-nio-8085-exec-7] DEBUG com.gx.dataI.common.utils.FastDFSUtil - 上传路径=http://192.168.18.236:80/group1/M00/00/00/wKgS_F6ECfqAaVdYAABIDoKXuVk606.jpg
+2020-04-01 11:26:55.410 [http-nio-8085-exec-7] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : {"msg":"N1ZxMU9BNGpxZzg3Rk5tZ0NyWWVKZklHbEZmOTZ4aE8zdEtOaGNEdEZBNTMvcDc2T2JLZ01YNmp1UDZORGE4NllqQVdNeXZrVkNnT3k4NlpURWppNWc9PQ","code":"200"}
+2020-04-01 11:27:29.631 [http-nio-8085-exec-2] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——获取组中可用的storage IP——192.168.18.251
+2020-04-01 11:27:29.632 [http-nio-8085-exec-2] DEBUG com.gx.dataI.common.utils.FastDFSUtil - ——storage server生成
+2020-04-01 11:27:29.633 [http-nio-8085-exec-2] DEBUG com.gx.dataI.common.aop.WebLogAspect - 返回值 : null
+2020-04-01 16:06:58.085 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-01 16:08:39.346 [restartedMain] DEBUG com.gx.dataI.HzdosDataInterfaceApplication - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
